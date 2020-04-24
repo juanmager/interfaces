@@ -1,0 +1,28 @@
+.red-team {
+    background-color: red;
+}
+
+.blue-team {
+    background-color: blue;
+}
+
+#darth-vader {
+    font-size: 80px;
+}
+
+#luke {
+    font-style: italic;
+}
+
+.soldiers {
+    letter-spacing: 10px;
+    border: white 6px dashed;
+}
+
+.support-units {
+    text-align: center;
+}
+
+.spaceships {
+    text-transform: uppercase;
+}
