@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap');
+
+
+body {
+    background-image: url('resident_evil_3/coverpage_re3.jpg');
+    background-size: cover;
+}
+
+.body {
+    background-image: url('resident_evil_3/jill.vs.nemesis.jpg');
+    background-size: cover;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(180%, 700%);
+    -ms-transform: translate(-10% -50%);
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    padding: 5px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+font {
+    font-family: 'Rosario', sans-serif;
+}
