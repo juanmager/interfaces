@@ -8,7 +8,7 @@ body {
 }
 
 #main_screen {
-    background-image: url('C:/Users/juanm/Desktop/Const. Interfaces de Usuario/ciu/interfaces/resident_evil_3/main_screen.jpg');
+    background-image: url('resident_evil_3/main_screen.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }
