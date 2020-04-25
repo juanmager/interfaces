@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap');
+
+
+body {
+    background-image: url('https://hardzone.es/app/uploads-hardzone.es/2020/04/Resident-Evil-3.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#main_screen {
+    background-image: url('C:/Users/juanm/Desktop/Const. Interfaces de Usuario/ciu/interfaces/resident_evil_3/main_screen.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#jillcomisary {
+    background-image: url('resident_evil_3/decision_fight_comisary.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#youdead {
+    background-image: url('resident_evil_3/jill.dead2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+#clocktower {
+    background-image: url('resident_evil_3/decision_clocktower.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#thanks {
+    background-image: url('resident_evil_3/stars2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#jump {
+    background-image: url('resident_evil_3/decision_jump2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#train {
+    background-image: url('resident_evil_3/decision_train.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#final_battle {
+    background-image: url('resident_evil_3/decision_exterminate.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#final_scene {
+    background-image: url('resident_evil_3/ending_screen.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#september {
+    background-image: url('resident_evil_3/september28.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#bye {
+    background-image: url('resident_evil_3/stars2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(300%, 700%);
+    -ms-transform: translate(-100% -50%);
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 6%;
+    left: 20%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(255, 255, 255);
+    border: 2px solid #f44336;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.button1:hover {
+    background-color: #f44336;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.button2 {
+    position: absolute;
+    bottom: 6%;
+    left: 43%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(48, 45, 45);
+    color: black;
+    border: 2px solid #ffffff;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.button2:hover {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+}
+
+.button3 {
+    position: absolute;
+    bottom: 6%;
+    left: 70%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: rgb(0, 0, 0);
+}
+
+.button4 {
+    position: absolute;
+    bottom: 13%;
+    left: 22%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 2px solid #f44336;
+    width: 750px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.button4:hover {
+    background-color: #f44336;
+    color: rgb(0, 0, 0);
+}
+
+.button5 {
+    position: absolute;
+    bottom: 1%;
+    left: 22%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 2px solid #f44336;
+    width: 750px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.button5:hover {
+    background-color: #f44336;
+    color: rgb(0, 0, 0);
+}
+
+.button6 {
+    position: absolute;
+    bottom: 7%;
+    left: 35%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 2px solid #1d1c1c;
+    width: 100px;
+    height: 60px;
+    font-size: 45px;
+}
+
+.button6:hover {
+    background-color: #f44336;
+    color: black;
+}
+
+.button7 {
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(2, 2, 2);
+    color: black;
+    border: 2px solid #1d1c1c;
+    width: 100px;
+    height: 60px;
+    font-size: 45px;
+}
+
+.button7:hover {
+    background-color: #f44336;
+    color: black;
+}
+
+.button8 {
+    position: absolute;
+    bottom: 13%;
+    left: 20%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 2px solid #f44336;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.button8:hover {
+    background-color: #f44336;
+    color: rgb(0, 0, 0);
+}
+
+.button9 {
+    position: absolute;
+    bottom: 1%;
+    left: 20%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 2px solid #f44336;
+    width: 800px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.button9:hover {
+    background-color: #f44336;
+    color: rgb(0, 0, 0);
+}
+
+.button10 {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: #27b10565;
+    color: black;
+    border: 2px solid #5cf436;
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.button10:hover {
+    background-color: #5cf436;
+    color: rgb(0, 0, 0);
+}
+
+.button11 {
+    position: absolute;
+    bottom: 36%;
+    left: 21%;
+    transform: translateY(0%);
+    transform: translateX(0%);
+    background-color: rgba(0, 0, 0, 0.432);
+    color: black;
+    border: 2px solid #f44336;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.button11:hover {
+    background-color: #f44336;
+    color: rgb(0, 0, 0);
+}
+
+font {
+    font-family: 'Rosario', sans-serif;
+}
