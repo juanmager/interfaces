@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+h1{
+    color: black;
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+body {
+    background-image: url('images/friends-3042751_1920.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Indie Flower', cursive;
+}
